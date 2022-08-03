@@ -1,0 +1,129 @@
+* {
+    width: auto;
+}
+
+.header {
+    width: 100%;
+    text-align: right;
+
+}
+
+.header-link {
+    width: 55px;
+    height: 50px;
+    display: table;
+    float: left;
+
+}
+
+.header a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+
+}
+
+.header img {
+    border-radius: 50px;
+}
+
+.google {
+    width: 100%;
+    margin-top: 232px;
+    text-align: center;
+}
+
+.arama {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    margin-top: 22px;
+    width: calc(632px + 6px);
+    width: auto;
+    max-width: 584px;
+}
+
+.arama:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.ara {
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #9aa0a6;
+}
+
+.klavye {
+    margin-top: 10px;
+    margin-left: 505px;
+    color: #202124;
+}
+
+.google-ara {
+    width: 584px;
+    margin: auto;
+    margin-top: 27px;
+    text-align: center;
+}
+
+.google-buton {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    min-width: 100px;
+    cursor: pointer;
+    user-select: none;
+    float: left;
+}
+
+.google-buton:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.footer {
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #70757a;
+}
+.footer-yazi{
+    padding:12px 0px 6px 30px;
+}
+.footer-konum{
+    width: 33%;
+    float: left;
+    margin-bottom:12px;
+    margin-top: -6px;
+}
+.footer-yazi a{
+    text-decoration: none;
+    color:#70757a ;
+    margin-right: 22px;
+}
+hr{
+ border-color:rgb(252, 249, 249); 
+ opacity: 0.3;  
+}
